@@ -1,6 +1,43 @@
 /*
 Theme Name: Blank
 */
+@font-face{ 
+	font-family: 'Yorkten';
+	src: url('fonts/yorkten.eot');
+	     url('fonts/yorkten.woff') format('woff'),
+	     url('fonts/yorkten.ttf') format('truetype'),
+}
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
-	background:red;
+}
+h1{
+	font-family: 'Yorkten', Arial, sans-serif;
+	font-size: 3em;
+	
+}
+h2{
+	
+}
+h3{
+	
+}
+h4{
+	
+}
+h5{
+	
+}
+h6{
+	
+}
+p{
+	
+}
+.wrapper{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
 }
