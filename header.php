@@ -11,16 +11,21 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<nav>
-		Logo
-		<ul>
-			<li>Our Work</li>
-			<li>About</li>
-			<li>Blog</li>
-			<li>Feed</li>
-			<li>Forge</li>
-			<li>Contact</li>
-		</ul>
-	</nav>
+	<header>
+		<nav>
+			<div class="wrapper">
+			<div class="logo">
+				Logo
+			</div>
+			<ul>
+				<li>Our Work</li>
+				<li>About</li>
+				<li>Blog</li>
+				<li>Feed</li>
+				<li>Forge</li>
+				<li>Contact</li>
+			</ul>
+			</div>
+		</nav>
+	</header>
 	
-	<div class="wrapper">

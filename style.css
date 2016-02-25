@@ -15,29 +15,162 @@ body{
 }
 h1{
 	font-family: 'Yorkten', Arial, sans-serif;
-	font-size: 3em;
-	
+	font-size: 2.5em;
+	line-height: 1.2em;
+	color: #414142;
+	text-transform: uppercase;
 }
 h2{
-	
+	font-family: 'Yorkten', Arial, sans-serif;
+	font-size: 1.75em;
+	line-height: 1em;
+	color: #414142;
 }
 h3{
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1.25em;
+	line-height: 1em;
+	color: #414142;
+	font-weight: 400;
+	text-transform: uppercase;
 	
 }
-h4{
-	
-}
-h5{
-	
-}
-h6{
-	
-}
+
 p{
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.25em;
+	color: #414142;
+	font-weight: 400;
+	letter-spacing: .05em;
 	
 }
+img{
+	width: 100%;
+	display: block;
+}
+
+/*ALIGNMENTS*/
+.clear{
+	clear: both;
+}
+.alignnone {
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+}
+.alignright {
+    float:right;
+}
+.alignleft {
+    float: left;
+}
+a img.alignright {
+    float: right;
+}
+a img.alignnone {
+}
+a img.alignleft {
+    float: left;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/*MENU*/
+header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+nav{
+	position: relative;
+	padding-top: 1%;
+}
+nav .logo{
+	float: left;
+}
+nav ul{
+	float: right;
+}
+nav li{
+	display: inline-block;	
+}
+
+/*STRUCTURE*/
+
 .wrapper{
 	width: 100%;
 	max-width: 1000px;
 	margin: 0 auto;
+	position: relative;
+}
+
+
+/*HOME*/
+.home-header-wrapper{
+	background: url(images/bg-orange.png) 0px -100px fixed no-repeat #EA6239;
+	height: 600px;
+	padding-top: 15%;
+	position: relative;
+	text-align: center;
+}
+.down-arrow{
+	width: 26px;
+	height: 33px;
+	background: url(images/arrow-down.png);
+	margin: 0 auto;
+}
+.slope{
+	width: 100%;
+	height: 526px;
+	background: url(images/slope.png);
+	position: absolute;
+	bottom: 0;
+}
+
+/*PORTFOLIO GALLERY */
+.portfolio-gallery{
+	width: 100%;
+}
+.gallery{
+	list-style-type: none;
+}
+
+@media screen and (min-width: 37em){
+	.gallery li{
+	float: left;
+	padding: 0 2% 2% 0;
+	}
+	.gallery.featured li:nth-child(2){
+		padding-right: 0;
+	}
+	.gallery li:nth-child(3){
+		padding-right: 0%;
+	}
+	.portfolio-gallery-large{
+		width: 66%;
+	}
+	.portfolio-gallery-small{
+		width: 32%;
+	}
+		
+}
+
+
+/*FOOTER*/
+footer{
+	width: 100%;
+	height: 3em;
+	background: #414141;
+}
+
+
+#bg{
+width: 200px;
+height: 200px;    
 }
